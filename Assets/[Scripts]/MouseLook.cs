@@ -9,11 +9,6 @@ public class MouseLook : MonoBehaviour
     public float sensivity = -1f;
     private Vector3 rotate;
 
-    //private void Start()
-    //{
-    //    Cursor.lockState = CursorLockMode.Locked;
-    //}
-
     private void Update()
     {
         y = Input.GetAxis("Mouse X");
